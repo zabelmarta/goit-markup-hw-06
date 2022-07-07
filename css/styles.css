@@ -743,14 +743,14 @@ margin-top: 94px;
 
 }
 
-.form-input:focus + .icon-person,
-.form-input:focus + .icon-tele,
-.form-input:focus + .icon-mail{
+.form-input:focus-within + .icon-person,
+.form-input:focus-within + .icon-tele,
+.form-input:focus-within + .icon-mail{
  border-color:#2196F3;
  fill:#2196F3;
 }
 
-.form-textarea:focus{
+.form-textarea:focus-within{
  border:  #2196F3;
 
 }
