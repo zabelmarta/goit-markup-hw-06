@@ -368,12 +368,13 @@
   border-radius: 50%;
   align-items: center;
   justify-content: center;
+    fill: #AFB1B8;
 }
 
 .social-icon {
   width: 20px;
   height: 20px;
-  fill: #AFB1B8;
+
 }
 
 .social-list-link:hover,
