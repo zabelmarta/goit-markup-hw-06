@@ -139,6 +139,8 @@
   align-items: center;
   flex-direction: column;
   padding-top: 0px;
+  max-width: 1600px;
+  min-width: 1600px;
 }
 .headline {
   font-weight: 900;
@@ -486,6 +488,7 @@ margin-top: 94px;
   fill: #fff;
   width: 20px;
   height: 20px;
+  vertical-align: middle;
 }
 
 .social-link-footer {
@@ -496,6 +499,7 @@ margin-top: 94px;
   border-radius: 50%;
   align-items: center;
   justify-content: center;
+  vertical-align: middle;
 }
 
 .social-link-footer:hover,
@@ -702,6 +706,18 @@ margin-top: 94px;
   cursor: pointer;
 }
 
+.close-btn-icon{
+   width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  border:  1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  background-color: transparent;
+  cursor: pointer;
+}
+
 .is-hidden {
   opacity: 0;
   visibility: hidden;
@@ -742,9 +758,10 @@ margin-top: 94px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   padding-left: 40px;
+  outline: none;
 
 }
-
+.form-input:focus,
 .form-input:focus-within + .icon-person,
 .form-input:focus-within + .icon-tele,
 .form-input:focus-within + .icon-mail{
@@ -752,10 +769,8 @@ margin-top: 94px;
  fill:#2196F3;
 }
 
-.form-textarea:focus-within{
- border:  #2196F3;
 
-}
+
 
 .icon-person{
   width: 12px;
@@ -811,6 +826,11 @@ margin-top: 94px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   resize: none;
+  outline: none;
+}
+
+.form-textarea:focus{
+  border-color: #2196F3;
 }
 
 .form-policy {
